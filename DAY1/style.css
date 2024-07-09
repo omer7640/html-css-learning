@@ -123,6 +123,7 @@ Use z-index to place the div on top of page.
   width: 1100px;
   background-image: url(https://images.unsplash.com/photo-1720371300677-ba4838fa0678?w=1100&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8);
   background-size: cover;
+  float: right;
   position: static;
   z-index: 1;
 }
