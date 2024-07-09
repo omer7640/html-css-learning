@@ -1,0 +1,131 @@
+/* QUESTION1 */
+
+#box {
+  background-color: blue;
+}
+
+/* QUESTION 2 */
+.heading {
+  color: red;
+}
+
+/* QUESTION 3 */
+.btn {
+  background-color: green;
+}
+
+/* PRACTICE SET 2 */
+
+/* QUESTION 1 */
+
+.heading1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* QUESTION 3 */
+
+#outer {
+  font-size: 25px;
+}
+#inner {
+  font-size: 10px;
+}
+
+/* PRACTICE SET 3 */
+/* QUESTION 1 */
+.box1 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: green;
+}
+.navbar {
+  background-color: #0f1111;
+  height: 60px;
+  margin-top: 50px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 19px;
+}
+
+.nav-link {
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  color: white;
+  gap: 200px;
+}
+.search-sec {
+  margin-right: 50px;
+}
+.search-btn {
+  background-color: #f08804;
+  color: white;
+}
+.brand {
+  text-decoration: none;
+  color: #f08804;
+}
+
+/* PRACTICE SET 4 */
+
+/* QUESTION 1 */
+.content-section > div {
+  height: 100px;
+  width: 100px;
+}
+
+/* QUESTION 2 */
+/* Add borders to all the divs. */
+
+.head-and-foot-section > div {
+  border: 1px solid gray;
+}
+
+/* QUESTION 3  */
+/* Add a different background color to each div with an opacity of 0.5 */
+
+.content-section {
+  background-color: rgba(131, 0, 0, 0.5);
+}
+.second-div {
+  background-color: rgba(30, 255, 0, 0.507);
+}
+.third-div {
+  background-color: rgba(255, 225, 0, 0.5);
+}
+
+/* QUESTION 4 */
+/* Add the content area an appropriate height */
+.content-section {
+  height: 120px;
+}
+
+/* PRACTICE SET5 */
+
+/* <!-- Create the following layout using the given html.
+Give the div a height, width & some background image.
+Use the appropriate position property for the div element to place it at the
+right end of the page. (The div should not move even on scroll)
+
+Use z-index to place the div on top of page.
+
+<p> lorem*5 </p>
+<div> Love Nature </div>
+<p> lorem*5 </p> --> */
+
+.set-5-section {
+  height: 500px;
+  width: 1100px;
+  background-image: url(https://images.unsplash.com/photo-1720371300677-ba4838fa0678?w=1100&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8);
+  background-size: cover;
+  position: static;
+  z-index: 1;
+}
+.para-sec {
+  color: white;
+}
