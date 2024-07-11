@@ -1,0 +1,102 @@
+* {
+  /* background-color: black; */
+  color: white;
+}
+body {
+  background-color: black;
+}
+.resume {
+  width: 800px;
+  height: 1250px;
+  margin: auto;
+  background-size: cover;
+  position: relative;
+}
+.heading {
+  width: 150px;
+  left: 106px;
+  color: #53a189;
+  top: -50px;
+  font-size: 110px;
+  position: absolute;
+}
+.dev {
+  position: absolute;
+  top: 249px;
+  color: #53a189;
+  left: 282px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.resume-section {
+  display: flex;
+  margin-top: 100px;
+}
+.resume-left {
+  width: 300px;
+  height: 1250px;
+  background-color: #858c8a;
+}
+.resume-right {
+  width: 500px;
+  height: 1250px;
+  background-color: #262626;
+}
+.left-content,
+.right-content {
+  margin-top: 340px;
+  margin-left: 53px;
+}
+.left-content {
+  margin-top: 350px;
+}
+.resume-left h4 {
+  margin-bottom: -7px;
+  font-size: 16px;
+}
+.resume-left p {
+  font-size: 14px;
+  width: 220px;
+  line-height: 20px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+.objective-section {
+  margin-bottom: 45px;
+}
+.sec {
+  margin-bottom: 40px;
+}
+.add-head {
+  margin-bottom: 10px !important;
+}
+.address-section p {
+  line-height: 8px;
+}
+.website-section a {
+  line-height: 50px;
+}
+.about {
+  color: #53a189;
+  font-size: 19px;
+  margin-top: 51px;
+  border-bottom: 1px solid;
+}
+.right-content {
+  width: 419px;
+}
+.skill-list {
+  line-height: 2;
+}
+.project {
+  margin-top: 30px;
+}
+.project-name {
+  margin-bottom: 10px;
+  list-style: none;
+}
+.about-para {
+  line-height: 1.5;
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+}
