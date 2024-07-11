@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
 * {
+  font-family: "Roboto Slab", serif;
   /* background-color: black; */
   color: white;
 }
@@ -7,7 +10,7 @@ body {
 }
 .resume {
   width: 800px;
-  height: 1250px;
+  height: 1300px;
   margin: auto;
   background-size: cover;
   position: relative;
@@ -22,9 +25,9 @@ body {
 }
 .dev {
   position: absolute;
-  top: 249px;
+  top: 281px;
   color: #53a189;
-  left: 282px;
+  left: 321px;
   font-weight: 600;
   letter-spacing: 1px;
 }
@@ -34,12 +37,12 @@ body {
 }
 .resume-left {
   width: 300px;
-  height: 1250px;
+  height: 1300px;
   background-color: #858c8a;
 }
 .resume-right {
   width: 500px;
-  height: 1250px;
+  height: 1300px;
   background-color: #262626;
 }
 .left-content,
