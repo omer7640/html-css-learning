@@ -9,7 +9,8 @@ body {
   background-color: black;
 }
 .resume {
-  width: 800px;
+  /* width: 800px; */
+  width: 70%;
   height: 1300px;
   margin: auto;
   background-size: cover;
@@ -19,7 +20,7 @@ body {
   width: 150px;
   left: 106px;
   color: #53a189;
-  top: -50px;
+  top: 3px;
   font-size: 110px;
   position: absolute;
 }
@@ -36,12 +37,16 @@ body {
   margin-top: 100px;
 }
 .resume-left {
-  width: 300px;
+  /* width: 300px; */
+  margin: auto;
+
   height: 1300px;
   background-color: #858c8a;
 }
 .resume-right {
-  width: 500px;
+  /* width: 500px; */
+
+  margin: auto;
   height: 1300px;
   background-color: #262626;
 }
@@ -54,18 +59,19 @@ body {
   margin-top: 350px;
 }
 .resume-left h4 {
-  margin-bottom: -7px;
+  margin-bottom: 14px;
   font-size: 16px;
 }
 .resume-left p {
   font-size: 14px;
-  width: 220px;
+  /* width: 220px; */
   line-height: 20px;
   word-spacing: 2px;
   letter-spacing: 1px;
 }
 .objective-section {
   margin-bottom: 45px;
+  width: 90%;
 }
 .sec {
   margin-bottom: 40px;
@@ -85,8 +91,13 @@ body {
   margin-top: 51px;
   border-bottom: 1px solid;
 }
+a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
 .right-content {
-  width: 419px;
+  /* width: 419px; */
 }
 .skill-list {
   line-height: 2;
@@ -95,11 +106,68 @@ body {
   margin-top: 30px;
 }
 .project-name {
+  font-size: 20px;
   margin-bottom: 10px;
   list-style: none;
 }
 .about-para {
+  width: 80%;
   line-height: 1.5;
   word-spacing: 1px;
   letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 1200px) {
+  .resume {
+    height: 1460px;
+  }
+  .resume-left {
+    height: 1460px;
+  }
+  .resume-right {
+    height: 1460px;
+  }
+}
+@media screen and (max-width: 945px) {
+  .resume {
+    width: 100%;
+  }
+  .resume-section {
+    flex-direction: column;
+  }
+  .resume {
+    height: 1150px;
+  }
+  .resume-left {
+    height: 1150px;
+  }
+  .resume-right {
+    height: 1100px;
+  }
+  .right-content {
+    margin-top: 97px;
+  }
+}
+@media screen and (max-width: 722px) {
+  .heading {
+    top: 3px;
+    left: 40px;
+    font-size: 82px;
+  }
+  .dev {
+    top: 207px;
+    left: 251px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .resume {
+    height: 1250px;
+  }
+  .resume-left {
+    height: 1250px;
+  }
+  .resume-right {
+    height: 1250px;
+  }
 }
